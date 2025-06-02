@@ -13,14 +13,11 @@ This project implements a basic neural network from scratch (without TensorFlow 
 ---
 ## 📂 Structure
 
-- **Data Preprocessing**: Loads CSV, shuffles, and splits into training and dev sets.
-- **Model**: 
-  - Input Layer: 784 neurons
-  - Hidden Layer 1: 64 neurons (ReLU)
-  - Hidden Layer 2: 32 neurons (ReLU)
-  - Output Layer: 10 neurons (Softmax)
-- **Training**: Manual forward and backpropagation, updated with gradient descent.
-- **Testing**: Visualize predictions and compare with actual labels using matplotlib.
+- **Input Layer**: 784 neurons (28x28 grayscale pixel values)
+- **Hidden Layer**: 64 neurons with ReLU activation
+- **Output Layer**: 10 neurons with softmax activation (one for each digit 0–9)
+
+
 ---
 
 ## 📊 Key Concepts
